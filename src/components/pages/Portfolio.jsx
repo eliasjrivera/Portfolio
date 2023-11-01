@@ -26,6 +26,11 @@ export default function Portfolio() {
                         <TbWorldWww />
                     </li>
                 </a>
+                <ul>
+                    <li>Summary: Full stack web application and an online bookstore for books, powered by the Google Books API.</li>
+                    <li>Role: Developer</li>
+                    <li>Tools: React.js, Vite, Express.js, Node.js, HTML, CSS, JavaScript, JSON Web Token, CRUD, REST, Google Fonts, SQL, MySQL, Sequelize, Bcrypt, Dotenv, nodemon, Bootstrap, Heroku, React Icons, npm</li>
+                </ul>
                 <img src={novelista} alt='novelista'className="novelista"/>
                 </Accordion.Body>
             </Accordion.Item>
@@ -42,6 +47,11 @@ export default function Portfolio() {
                         <TbWorldWww />
                     </li>
                 </a>
+                <ul>
+                    <li>Summary: Full stack web application that provides a place for students to review, rate, and research their teachers and principals.</li>
+                    <li>Role: Developer</li>
+                    <li>Tools: React.js, Vite, Express.js, Node.js, HTML, CSS, JavaScript, MondoDB, Mongoose, NoSQL, Apollo, Apollo GraphQL, JWT, Bootstrap, Heroku, React Icons, npm</li>
+                </ul>
                 <img src={edurater} alt='edurater'className="edurater"/>
                 </Accordion.Body>
             </Accordion.Item>
@@ -58,6 +68,11 @@ export default function Portfolio() {
                         <TbWorldWww />
                     </li>
                 </a>
+                <ul>
+                    <li>Summary: Full stack web application that helps keep track of your run stats: geolocation, name of run, time ran, and distance ran.</li>
+                    <li>Role: Developer</li>
+                    <li>Tools: Express.js, Node.js, HTML, CSS, JavaScript, Handlebars.js, MySQL, Sequelize ORM, GET/POST routes, Font Awesome, Bootstrap, Heroku, Insomnia, npm, Google Map JS API</li>
+                </ul>
                 <img src={mvmnt} alt='mvmnt'className="mvmnt"/>
                 </Accordion.Body>
             </Accordion.Item>
@@ -74,6 +89,11 @@ export default function Portfolio() {
                         <TbWorldWww />
                     </li>
                 </a>
+                <ul>
+                    <li>Summary: Interactive front-end application that searches for your favorite movies, displays rating score and plot information.</li>
+                    <li>Role: Developer</li>
+                    <li>Tools: Server-Side APIs – OMDB (Open Movie Database) API and TMDB (The Movie Database) API, Bulma, HTML, CSS, JavaScript, GitHub, client-side storage</li>
+                </ul>
                 <img src={filmify} alt='filmify'className="filmify"/>   
                 </Accordion.Body>
             </Accordion.Item>
