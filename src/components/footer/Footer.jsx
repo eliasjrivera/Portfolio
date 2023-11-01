@@ -7,17 +7,17 @@ export default function Footer() {
         <footer>
             <p>
                 <ul>
-                    <a href="https://github.com/eliasjrivera">
+                    <a href="https://github.com/eliasjrivera" target="_blank">
                     <li className="logo">
                         <VscGithubAlt />
                     </li>
                     </a>
-                    <a href="https://www.linkedin.com/in/eliasjrivera/">
+                    <a href="https://www.linkedin.com/in/eliasjrivera/" target="_blank">
                     <li className="logo">
                         <AiOutlineLinkedin />
                     </li>
                     </a>
-                    <a href="https://stackoverflow.com/users/22462458/elias">
+                    <a href="https://stackoverflow.com/users/22462458/elias" target="_blank">
                     <li className="logo">
                         <FaStackOverflow />
                     </li>

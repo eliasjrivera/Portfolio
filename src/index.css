@@ -85,6 +85,30 @@ footer p {
   padding: 2px 0px;
 }
 
+.novelista {
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+.a-novelista {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* background-color: rgb(233, 96, 59); */
+  color: rgb(35, 98, 226);
+}
+
+.edurater {
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+.a-edurater {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* background-color: rgb(233, 96, 59); */
+  color: rgb(35, 98, 226);
+}
+
 .mvmnt {
   max-width: 100%;
   max-height: 100%; 

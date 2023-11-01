@@ -1,60 +1,48 @@
-// switch name to Portfolio after website functions
-// About = Portfolio
+import Accordion from 'react-bootstrap/Accordion';
+
+import novelista from '../../assets/images/novelista.png';
+import edurater from '../../assets/images/edurater.png';
 import mvmnt from '../../assets/images/mvmnt.png';
 import filmify from '../../assets/images/filmify.png';
-import weatherDashboard from '../../assets/images/weather-dashboard.png';
-import noteTaker from '../../assets/images/note-taker.png';
-import generator from '../../assets/images/password-generator.png';
-import codeQuiz from '../../assets/images/code-quiz.png';
-
-
 
 export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <div className='flex'>
+            <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+                <Accordion.Header>NOVELISTA</Accordion.Header>
+                <Accordion.Body>
+                <a className='a-novelista' href="https://github.com/mslzbry/mvmnt">novelista GitHub Repository</a>
+                <a className='a-novelista' href="https://fast-scrubland-44894-b727f94b7e1a.herokuapp.com/">novelista Deployed Site</a>
+                <img src={novelista} alt='novelista'className="novelista"/>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+                <Accordion.Header>EduRATEr</Accordion.Header>
+                <Accordion.Body>
+                <a className='a-edurater' href="https://github.com/mslzbry/mvmnt">mvmnt GitHub Repository</a>
+                <a className='a-edurater' href="https://fast-scrubland-44894-b727f94b7e1a.herokuapp.com/">mvmnt Deployed Site</a>
+                <img src={edurater} alt='mvmnt'className="mvmnt"/>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="2">
+                <Accordion.Header>mvmnt</Accordion.Header>
+                <Accordion.Body>
                 <a className='a-mvmnt' href="https://github.com/mslzbry/mvmnt">mvmnt GitHub Repository</a>
                 <a className='a-mvmnt' href="https://fast-scrubland-44894-b727f94b7e1a.herokuapp.com/">mvmnt Deployed Site</a>
-            </div>
-            <div>
                 <img src={mvmnt} alt='mvmnt'className="mvmnt"/>
-            </div>
-            <div className='flex'>  
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="3">
+                <Accordion.Header>Filmify</Accordion.Header>
+                <Accordion.Body>
                 <a className='a-filmify' href="https://github.com/eliasjrivera/Filmify">Filmify GitHub Repository</a>
                 <a className='a-filmify' href="https://eliasjrivera.github.io/Filmify/">Filmify Deployed Site</a>
-            </div>
-            <div>
                 <img src={filmify} alt='filmify'className="filmify"/>   
-            </div>
-            <div className='flex'>  
-                <a className='a-weatherDashboard' href="https://github.com/eliasjrivera/Weather-Dashboard">Weather Dashboard GitHub Repository</a>
-                <a className='a-weatherDashboard' href="https://eliasjrivera.github.io/Weather-Dashboard/">Weather Dashboard Deployed Site</a>
-            </div>
-            <div>
-                <img src={weatherDashboard} alt='weatherDashboard'className="weatherDashboard"/>
-            </div>
-            <div className='flex'>  
-                <a className='a-noteTaker' href="https://github.com/eliasjrivera/Express.js-Note-Taker">Note Taker GitHub Repository</a>
-                <a className='a-noteTaker' href="https://thawing-ravine-08596-e7ba324e19b6.herokuapp.com/">Note Taker Deployed Site</a>
-            </div>
-            <div>
-                <img src={noteTaker} alt='noteTaker'className="noteTaker"/>
-            </div>
-            <div className='flex'>  
-                <a className='a-generator' href="https://github.com/eliasjrivera/JavaScript-Password-Generator">Password Generator GitHub Repository</a>
-                <a className='a-generator' href="https://eliasjrivera.github.io/JavaScript-Password-Generator/">Password Generator Deployed Site</a>
-            </div>
-            <div>
-                <img src={generator} alt='generator'className="generator"/>
-            </div>
-            <div className='flex'>  
-                <a className='a-codeQuiz' href="https://github.com/eliasjrivera/Web-APIs-Code-Quiz">Code Quiz GitHub Repository</a>
-                <a className='a-codeQuiz' href="https://eliasjrivera.github.io/Web-APIs-Code-Quiz/">Code Quiz Deployed Site</a>
-            </div>
-            <div>
-                <img src={codeQuiz} alt='codeQuiz'className="codeQuiz"/>
-            </div>
+                </Accordion.Body>
+            </Accordion.Item>
+            </Accordion>
         </div>
     );
 }
