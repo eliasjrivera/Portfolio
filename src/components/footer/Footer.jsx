@@ -12,7 +12,7 @@ export default function Footer() {
                         <VscGithubAlt />
                     </li>
                     </a>
-                    <a href="https://www.linkedin.com/in/elias-rivera-5bb55025a/">
+                    <a href="https://www.linkedin.com/in/eliasjrivera/">
                     <li className="logo">
                         <AiOutlineLinkedin />
                     </li>
