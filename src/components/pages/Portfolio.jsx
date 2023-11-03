@@ -12,6 +12,7 @@ export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
+            &nbsp;
             <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>NOVELISTA</Accordion.Header>

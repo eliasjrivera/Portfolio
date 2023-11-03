@@ -6,6 +6,7 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
+            &nbsp;
             <a href="https://docs.google.com/document/d/1oiSM2xGcSuqCaLDxmMkHA1jDnx409SthHgv65fNv6i4/edit?usp=sharing" target="_blank">
                 <li className="logo">
                     <FaFileDownload />
