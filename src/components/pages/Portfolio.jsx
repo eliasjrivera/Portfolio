@@ -64,7 +64,7 @@ export default function Portfolio() {
                         <VscGithubAlt />
                     </li>
                 </a> &nbsp;
-                <a href="https://github.com/mslzbry/mvmnt" target="_blank">
+                <a href="https://mvmnt-7c803b2e2b8c.herokuapp.com/" target="_blank">
                     <li className="logo">
                         <TbWorldWww />
                     </li>
