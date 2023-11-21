@@ -1,6 +1,6 @@
 // switch name to About after website functions
 // Home = About
-import avatar from '../../assets/images/github-avatar.png';
+import avatar from '../../assets/images/avatar.jpg';
 
 export default function About() {
     return (
